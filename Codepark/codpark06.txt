@@ -1,0 +1,14 @@
+
+CRIAÇÃO DA TABELA ALUNO.
+
+CREATE TABLE ALUNO (
+  ID int NOT NULL PRIMARY KEY,
+  NOME varchar(255) NOT NULL,
+  EMAIL varchar(255) NOT NULL,
+  ENDERECO varchar(255) NOT NULL
+);
+
+Inseção de dados na tabela aluno.
+
+INSERT INTO ALUNO (ID, NOME, EMAIL, ENDERECO)
+VALUES (1, 'João Silva', 'joao@email.com', 'Rua PIO XII, 23');

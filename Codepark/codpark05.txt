@@ -1,0 +1,17 @@
+Arquitetura cliente servidor.
+
+A arquitetura cliente-servidor é uma estrutura de computação
+distribuída que divide tarefas e responsabilidades entre clientes e servidores.
+
+Aqui, o cliente é responsável por fazer solicitações ao servidor,
+que por sua vez, processa essas solicitações e fornece uma resposta. 
+Por exemplo, um usuário pode usar seu navegador para acessar uma página 
+da web hospedada em um servidor da web. O navegador atua como cliente, 
+fazendo uma solicitação ao servidor da web para obter a página da web, 
+que é então processada e retornada ao navegador para exibição.
+
+Em geral, a arquitetura cliente-servidor é projetada para melhorar a escalabilidade, 
+a disponibilidade e a segurança de sistemas distribuídos, pois permite que tarefas 
+específicas sejam delegadas a servidores especializados. Além disso, a separação de 
+responsabilidades entre clientes e servidores permite que mudanças em um lado da 
+arquitetura não afetem o outro, tornando o sistema mais robusto e escalável.
