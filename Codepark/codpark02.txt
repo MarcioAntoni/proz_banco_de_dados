@@ -1,1 +1,33 @@
-o trabalho ainad esta sendo elaborado.
+Criação da tabela com  entidade que tenha atributos simples, composto e multivalorado.
+
+Tabela Aluno.
+
+SGBD utilizado (sql)
+
+CREATE TABLE Aluno (
+  matricula SERIAL PRIMARY KEY,
+  nome TEXT NOT NULL,
+  data_nascimento DATE NOT NULL,
+  endereço TEXT NOT NULL,
+  telefone TEXT NOT NULL,
+  email TEXT NOT NULL,
+  interesses TEXT [],
+  cursos TEXT []
+);
+
+Atributos Simples:
+
+Matrícula (número único que identifica o aluno)
+Nome (nome completo do aluno)
+Data de Nascimento (data de nascimento do aluno)
+Telefone (número de telefone do aluno)
+E-mail (endereço de e-mail do aluno)
+
+Atributo Composto:
+
+Endereço (informações de endereço do aluno)
+
+Atributo Multivalorado:
+
+Interesses (lista de assuntos que interessam ao aluno)
+Cursos (lista de cursos que o aluno está matriculado)
