@@ -1,1 +1,105 @@
-Estou elaborando ainda o exercicio.
+
+Exercicio com operações select, project, união, itersecção, e diferença.
+
+
+                  ALUNO
+P.NOME	     U.NOME	   MATRÍCULA	 SÉRIE	    DICIPLINA	  NOTA
+Vitória 	Claudino	5542	     2º ano	   Matemática	   7,0
+Luiz	    Silva	    6215	     1º ano	   Português	   8,0
+André	    Carvalho	4521	     3º ano	   Matemática	   9,5
+Alan	    Vilela	    3285	     1º ano	   História	       8,0
+Figueiredo	Santos	    4598	     2º ano	   Geografia	   9,0
+
+Criação da tabela professor:
+       PROFESSOR
+P.NOME	      U.NOME
+Ana     	  Pereira
+Luiz	      Silva
+Felipe	      Santos
+Fernanda	  Oliveira
+Daiane	      Gomes
+
+Criação da tabela aluno:
+        ALUNO
+P.NOME	     U.NOME
+Vitória	     Claudino
+Luiz	     Silva
+André	     Carvalho
+Alan	     Vilela
+Figueiredo	 Santos
+
+
+
+
+Alunos aprovado com nota acima de 7,0
+
+Select1 =  Nota > 7 (Aluno)
+
+Saida da operação:
+P.NOME	     U.NOME	     MATRÍCULA	   SÉRIE	   DICIPLINA	   NOTA
+Luiz	     Silva	      6215	      1º ano	  Português	       8,0
+André	     Carvalho	  4521	      3º ano	  Matemática	   9,5
+Alan	     Vilela	      3285	      1º ano	  História	       8,0
+Figueiredo	 Santos	      4598	      2º ano	  Geografia  	   9,0
+
+
+Alunos do primeiro ano com nota >= 8
+Select2 =  Série = 1º ano and Nota >= 8 (Aluno)
+
+Saida da operação:
+P.NOME   U.NOME	  MATRÍCULA 	SÉRIE	 DICIPLINA	 NOTA
+Luiz	 Silva	   6215	       1º ano	 Português	 8,0
+Alan	 Vilela	   3285	       1º ano	 História	 8,0
+
+Busca de nomes e notas dos alunos.
+PROJECT1 = π Nome, Nota (Aluno)
+
+Saida da operação:
+P.NOME	    U.NOME	    NOTA
+Vitória	    Claudino	7,0
+Luiz	    Silva	    8,0
+André	    Carvalho	9,5
+Alan	    Vilela	    8,0
+Figueiredo	Santos	    9,0
+
+
+
+União da tabela Aluno com Professor.
+UNIÃO = Aluno U Professor
+
+Saida da operaçõa:
+ ALUNO U PROFESSOR
+P.NOME	    U.NOME
+Ana	        Pereira
+Luiz	    Silva
+Felipe	    Santos
+Fernanda    Oliveira
+Daiane	    Gomes
+Vitória	    Claudino
+André	    Carvalho
+Alan	    Vilela
+Figueiredo	Santos
+
+Intersecção da tabela Aluno com Professor.
+INTERSECÇÃO = Aluno Ո Professor
+
+Saida da operaçõa:
+  ALUNO Ո PROFESSOR
+P.NOME	  U.NOME
+Luiz	  Silva
+ 
+Diferença da tabela Aluno com Professor.
+DIFERENÇA = Aluno ≠ Professor
+
+Saida da operação:
+    ALUNO ≠ PROFESSOR
+P.NOME	      U.NOME
+Ana	          Pereira
+Felipe	      Santos
+Fernanda	  Oliveira
+Daiane	      Gomes
+Vitória       Claudino
+André	      Carvalho
+Alan	      Vilela
+Figueiredo	  Santos
+
