@@ -1,0 +1,21 @@
+
+
+Os bancos de dados mais utilizados no mercado atual são:
+
+1-Oracle Database
+2-MySQL
+3-Microsoft SQL Server
+4-PostgreSQL
+5-MongoDB
+
+
+Aqui estão breves descrições de dois deles:
+
+1-Oracle Database: É um dos SGBDs mais antigos e amplamente utilizados no mercado. 
+É uma base de dados relacional robusta e escalável que oferece recursos avançados de segurança,
+disponibilidade e gerenciamento de dados.
+
+2-MySQL: É uma base de dados open-source amplamente utilizada para aplicativos web e muito 
+popular por sua facilidade de uso e flexibilidade. É conhecido por sua escalabilidade, 
+segurança e alta disponibilidade, tornando-o uma escolha popular para aplicativos 
+empresariais de pequeno a médio porte.
