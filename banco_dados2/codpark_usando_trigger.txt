@@ -1,0 +1,27 @@
+CREATE table artista (
+  id SERIAL PRIMARY KEY,
+  nome VARCHAR(20) UNIQUE
+);
+
+INSERT INTO artista (nome) VALUES
+    ('Tom Jobim'),
+    ('Elis Regina');
+
+CREATE table musica (
+  id SERIAL PRIMARY KEY,
+  nome VARCHAR(30) NOT NULL,
+  duracao_seg INT NOT NULL
+);
+
+INSERT into musica (nome, duracao_seg) VALUES ('Aguas de Março', 210);
+
+create table artiista_musica(
+fk_id_artista int,
+fk_id_musica int,
+CONSTRAINT fk_artista
+  foreign key (fk_id_artista) REFERENCES artista (id),
+CONSTRAINT fk_musica
+  foreign key (fk_id_musica) REFERENCES musica(id),
+CONSTRAINT artista_musica_pk primary key (fk_id_artista, fk_id_musica) 
+
+)
