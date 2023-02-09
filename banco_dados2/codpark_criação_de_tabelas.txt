@@ -1,0 +1,30 @@
+CREATE TABLE artista(
+  id_artista SERIAL PRIMARY KEY,
+  NOME VARCHAR(25) NOT NULL
+)
+
+INSERT INTO artista (nome) VALUES
+  ('Roberto carlos'),
+  ('LEgião urbana'),
+  ('Sergio reis');
+  
+  SELECT * FROM artista
+
+
+
+  CREATE TABLE musica (
+  id_musica SERIAL PRIMARY KEY,
+  nome VARCHAR (50) NOT NULL,
+  duracao_seg INT NOT NULL
+);
+
+
+INSERT INTO musica (nome, duracao_seg) VALUES 
+  ('jesus cristo', 215),
+  ('Detalhes', 220),
+  ('Como e grade o meu amor por você', 243),
+  ('Vento no litoral', 215),
+  ('Eduardo e monica', 195),
+  ('Faroeste caboclo', 530);
+  
+  SELECT * FROM musica
