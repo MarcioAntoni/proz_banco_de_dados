@@ -1,0 +1,30 @@
+
+/*criando a tabela produto*/
+
+
+CREATE TABLE produtos_comprados(
+  ID SERIAL PRIMARY KEY,
+  nome VARCHAR(48) NOT NULL,
+  quantidade INT NOT NULL,
+  data_compra DATE
+)
+
+/*Inserindo dados na tabela*/
+INSERT INTO produtos_comprados (nome, quantidade, data_compra) VALUES
+  ('teclado', 15, '2023-01-15'),
+  ('mouse', 15, '2023-01-15'),
+  ('monitor',25,  '2023-01-15'),
+  ('mousepad', 32, '2023-01-15');
+
+/*Procedimento para criar relatorio diario de compras*/
+ DELIMITER $$
+ CREATE PROCEDURE relatorio_compras()
+ BEGIN
+ SELECT * from produtos_comprados;
+ END $$;
+ DELIMITER;
+ 
+ /*Chamando o procedimento*/
+ CALL relatorio_compras();
+ 
+ 
