@@ -1,0 +1,30 @@
+
+Segurançã em banco de dados:
+
+Existem três pilares da segurança de dados que são considerados fundamentais para proteger
+os dados armazenados em um banco de dados:
+
+1.	Confidencialidade: A confidencialidade se refere à garantia de que as informações
+ armazenadas em um banco de dados só sejam acessadas por pessoas autorizadas. 
+ Isso pode ser alcançado através de técnicas como autenticação de usuários, criptografia 
+ de dados e controle de acesso baseado em funções.
+
+2.	Integridade: A integridade de dados se refere à garantia de que as informações armazenadas 
+em um banco de dados são precisas, completas e não sejam alteradas sem autorização. 
+Isso pode ser alcançado através de técnicas como a criação de cópias de backup dos dados, a 
+verificação de integridade de dados e a monitoração de atividades suspeitas.
+
+3.	Disponibilidade: A disponibilidade de dados se refere à garantia de que os dados armazenados
+ em um banco de dados estejam sempre disponíveis para uso quando são necessários. 
+ Isso pode ser alcançado através de técnicas como a replicação de dados em múltiplos 
+ servidores, a implementação de sistemas de tolerância a falhas e a utilização de soluções 
+ de backup e recuperação de desastres.
+
+Esses três pilares da segurança de dados são interdependentes e devem ser considerados 
+juntos ao projetar um novo banco de dados para garantir a proteção eficaz das informações 
+armazenadas. É importante lembrar que a segurança de dados é um processo contínuo que requer 
+revisão e atualização constante para garantir a proteção contra ameaças em constante evolução.
+
+
+
+
