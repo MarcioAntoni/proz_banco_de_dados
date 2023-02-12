@@ -1,0 +1,13 @@
+
+criando função:
+
+
+CREATE FUNCTION  cadastro_clientes (dateInput DATE)
+RETURNS INT
+BEGIN
+DECLARE total INT;
+SELECT COUNT(*) INTO total
+FROM  clientes
+WHERE data_registro = dateInput;
+RETURN total;
+END;
