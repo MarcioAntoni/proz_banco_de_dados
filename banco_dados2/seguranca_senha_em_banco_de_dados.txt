@@ -1,0 +1,22 @@
+
+Como foi estudados segurançã de senha é un asunto de muita importancia quando falamos em 
+banco de dados:
+
+Aqui estão três métodos para fortalecer senhas:
+
+1.	Comprimento da senha: Quanto maior a senha, mais segura ela é. As senhas devem ter pelo 
+menos 12 caracteres, e é recomendável que incluam uma combinação de letras maiúsculas, 
+minúsculas, números e símbolos.
+
+2.	Utilização de frases de senha: Em vez de usar uma única palavra, é aconselhável usar uma 
+frase de senha, que é uma frase curta formada por uma combinação de palavras, números e 
+símbolos. Essas frases de senha são mais fáceis de se lembrar e, ao mesmo tempo, mais seguras.
+
+3.	Evite usar informações pessoais: Não use informações pessoais como data de nascimento, 
+nome de familiares ou endereços como parte da sua senha. Essas informações são frequentemente 
+usadas por hackers para adivinhar senhas. Em vez disso, use combinações aleatórias de 
+letras, números e símbolos.
+
+
+
+
